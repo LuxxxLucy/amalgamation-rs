@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["LUCY Jialin Lu <luxxxlucy@gmail.com>"]
 description = "A command-line tool that downloads a GitHub repository and merges all text/source files into a single file for easier browsing and LLM analysis"
+license = "MIT"
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
