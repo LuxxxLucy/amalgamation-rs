@@ -8,8 +8,13 @@ code, it turns out it would be a great idea if I can just input a url of a githu
 ## Usage
 
 Basic merge mode:
+```
     run amalgamator <url> -o <output-name>
+```
 with `-v` or `--verbose` to show more logs
+
 Interactive mode:
+```
     run amalgamator <url> -o <output-name> --interactive
+```
 This would open a TUI menu, and then you can select/unselect the files/folders, hit `tab` to switch focused panel, and then hit enter to confirm
